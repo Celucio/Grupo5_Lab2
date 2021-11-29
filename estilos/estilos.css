@@ -59,7 +59,7 @@ h1:hover{
     animation-timing-function: linear;
 }
 #contenedor{
-    width: 90%;
+    width: auto;
     height: auto;
     margin: 0px auto;
     border: 1px solid rgba(225, 225, 226, 0.8);
@@ -206,4 +206,23 @@ h1:hover{
     animation: jackInTheBox;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+}
+table{
+    border: 2px solid #000;
+    border-collapse: collapse;
+    width: 500px;
+    background-color: aquamarine;
+    font-style:normal;
+}
+table td{
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+table tr:hover{
+    background: skyblue;
+    /*color:FFF;*/
+}
+table td:hover{
+    background: springgreen;
+    color: #FFF;
 }
