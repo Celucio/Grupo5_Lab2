@@ -207,22 +207,22 @@ h1:hover{
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
-table{
+.formulario{
     border: 2px solid #000;
     border-collapse: collapse;
-    width: 1000px;
+    width: 20%;
     background-color: aquamarine;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-table td{
+.formulario td{
     border: 1px solid #ccc;
     padding: 20px;
 }
-table tr:hover{
+.formulario tr:hover{
     background: skyblue;
     /*color:FFF;*/
 }
-table td:hover{
+.formulario td:hover{
     background: springgreen;
     color: #FFF;
 }
