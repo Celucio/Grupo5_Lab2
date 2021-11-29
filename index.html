@@ -37,21 +37,55 @@
         </header>
         <main id="contenido">
             <aside id="aside">
-                <h2>¿Que deseas hacer?</h2>
-                <ul>
-                    <li><a href="index.html">Pagina Principal</a></li>
-                    <li><a href="servicios.html">Servicios de Mantenimiento</a></li>
-                </ul>
-                <p id="alineacion">En esta seccion se muestra los productos del negocio</p>
-                <br>
-                <br>
-                <br>
-                <br>
-                <p id="alineacion">¿Que tal algo de Musica?</p>
-                <br>
-                <br>
-                <audio class="audio" src="audios/Dreams_50k.mp3" controls autoplay loop></audio>
-                <br>
+                <form action="form2.php" method="post">
+                    <table border="1" bordercolor="black" width="45%" align="left">
+                        <tr>
+                        <td colspan="2" align="center"><h3 align="center">Registrarse<br>
+                        <h4 align="center">Crea tu cuenta</h4>
+                        </tr>
+                        <tr>
+                            <td>
+                                Nombre: <input="text" name="nombre">
+                            </td>
+                            <td>
+                                Apellido: <input="text" name="apellido">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><input type="text" name="cadena"
+                                    placeholder="Correo electronico                                               @yahoo.com"
+                                    size="65"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><input type="text" name="cadena" placeholder="Contraseña" size="65"></td>
+                        </tr>
+                        <td>
+                            <select name="telefonos">
+                                <option value="1" selected>(+593)</option>
+                                <option value="2">(+59) Chile</option>
+                                <option value="3">(+86) China </option>
+                                <option value="4">(+45) Dinamarca</option>
+                                <option value="5">(+39) Italia </option>
+                            </select>
+                        <td>Numero de Celular </td>
+                        </td>
+                        <tr>
+                            <td>
+                                Fecha: <input type="date" name="fecha">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><input type="text" name="cadena" placeholder="Sexo Opcional" size="65"></td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="center"><h5 align="center">Al hacer clic en “Continuar”, aceptas los<br>
+                           <a href="#"> Términos y Condiciones y la </a><br>
+                           <a href="#"> Política de privacidad </a>
+                        </tr>
+                        <td colspan="2" align="center" ><input type="submit" style="background-color: blue; color:white" value="Continuar"><br>
+                            ¿Ya tienes una cuenta? <a href="#"> Inicia Sesion </a></td>
+                    </table>
+                </form>
                 <br>
                 <p id="alineacion">IMPORTANTE: Para ver la pagina de mejor manera, reduce el zoom de la pagina a un 80%</p>
             </aside>
@@ -127,6 +161,7 @@
         </main>
     </div>
 
+<<<<<<< HEAD
     <footer>
         <center>
 
@@ -158,6 +193,8 @@
     </div>
     </footer>
     
+=======
+>>>>>>> 64c1f8e6be9364243ac577a576772d912d87fc90
 
 </body>
 
