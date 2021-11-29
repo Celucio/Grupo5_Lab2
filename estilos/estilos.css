@@ -210,9 +210,9 @@ h1:hover{
 table{
     border: 2px solid #000;
     border-collapse: collapse;
-    width: 500px;
+    width: 1000px;
     background-color: aquamarine;
-    font-style:normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 table td{
     border: 1px solid #ccc;
@@ -226,3 +226,19 @@ table td:hover{
     background: springgreen;
     color: #FFF;
 }
+.copyright{
+    margin-top: 0px;
+    display: flex;
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  } 
+    
+  .copyright > p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+  }
